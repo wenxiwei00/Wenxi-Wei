@@ -9,7 +9,7 @@ Lab 2
 * Git
 * Getting the SDK and examples
 * Building "Hello World"
-* Putty
+* PuTTY
 
 # Arm GNU Toolchain
 Download Arm GNU Toolchain from https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads. Choose the highlighted version.
@@ -85,7 +85,18 @@ Next, go to the file menu. **Open File >> choose pico-example >> Select Folder**
 
 Go ahead and click on the **Build button** (with a cog wheel) in the blue bottom bar of the window. This will create the build directory and run CMake and build the examples project, including "Hello World".
 
-Then, the folder in your computer will exists a file called **hello_usb.uf2** inside the build folder.
+Then, your computer will exist a file called **hello_usb.uf2** inside the build folder.
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%204.PNG" width="500px">
+
+The next step is connecting Adafruit QT Py RP2040 to computer and drag **hello_usb.uf2** into Adafruit QT Py RP2040. After inserting QT Py RP2040, hold down the **BOOT/BOOTSEL button** (highlighted in red), and while continuing to hold it (don't let go!), press and release the **reset button** (highlighted in blue). Continue to hold the BOOT/BOOTSEL button until the RPI-RP2 drive appears.
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%205.PNG" width="500px">
+
+Then drag the **hello_usb.uf2** into Adafruit QT Py RP2040 drive.
+
+# PuTTY
+
+
+
 
