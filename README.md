@@ -60,7 +60,7 @@ PS D:\app\519\pico> git clone -b master https://github.com/raspberrypi/pico-exam
 ```
 
 # Building "Hello World" from Visual Studio Code
-Firstly, open the Developer Command Prompt for VS 2022 and type,
+Firstly, open the **Developer Command Prompt for VS 2022** and type,
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%201.PNG" width="500px">
 
@@ -72,11 +72,11 @@ Next, click on the Cog Wheel at the bottom of the navigation bar on the left-han
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%202.PNG" width="500px">
 
-In the setting pane, **click Extensions >> CMake Tools >> CMake: Configure Environment >> Add Item >> set the PICO_SDK_PATH to be `..\..\pico-sdk`**.
+In the setting pane, **click Extensions >> CMake Tools >> CMake: Configure Environment >> Add Item >> set the PICO_SDK_PATH to be ..\..\pico-sdk**.
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%203.PNG" width="500px">
 
-Scroll down to **Cmake: Generator** and enter `NMake Makefiles`
+Scroll down to **Cmake: Generator** and enter **NMake Makefiles**
 
 Next, go to the file menu. **Open File >> choose pico-example >> Select Folder**. When you are prompted to configure the project which will show on right bottom, select **GCC for arm-none-eabi** for your compiler.
 
