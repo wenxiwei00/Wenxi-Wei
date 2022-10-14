@@ -43,12 +43,11 @@ Download from https://git-scm.com/download/win.
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/5.1.PNG" width="500px">
 
 # Getting the SDK and examples
-Open Visual Studio Code >> Terminal >> New Terminal.
+Open **Visual Studio Code >> Terminal >> New Terminal**.
 Initial the address
 ```
 PS D:\app\519\pico\pico-examples> cd "D:\app\519\pico"
 ```
-
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/6.1.PNG" width="500px">
 
 Then, clone SDK and example from github
