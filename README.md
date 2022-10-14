@@ -8,8 +8,8 @@ Lab 2
 * Python 3.10
 * Git
 * Getting the SDK and examples
-* Putty
 * Building "Hello World"
+* Putty
 
 # Arm GNU Toolchain
 Download Arm GNU Toolchain from https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads. Choose the highlighted version.
@@ -62,6 +62,14 @@ PS D:\app\519\pico\pico-sdk> cd ..
 PS D:\app\519\pico> git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 
+# Building "Hello World" from Visual Studio Code
+Firstly, open the Developer Command Prompt for VS 2022 and type,
 
-<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
-<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%201.PNG" width="500px">
+
+From this way, Visual Studio will be open with all correct environment.
+
+Then, this is a setting part. 
+Choose Setting
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%202.PNG" width="500px">
