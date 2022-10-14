@@ -25,6 +25,8 @@ Download CMake from https://cmake.org/download/. Choose the highlighted version.
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/2.1.PNG" width="500px">
 
+Do not forget to choose "Add CMake to the system PATH for all users"
+
 # Build Tools for Visual Studio 2022
 Download from https://visualstudio.microsoft.com/zh-hans/downloads/.
 
@@ -43,7 +45,22 @@ Download from https://git-scm.com/download/win.
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
 
 # Getting the SDK and examples
+Open Visual Studio Code >> Terminal >> New Terminal.
+Initial the address
+```
+PS D:\app\519\pico\pico-examples> cd "D:\app\519\pico"
+```
+6.11111111111
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
 
+Then, clone SDK and example from github
+```
+PS D:\app\519\pico> git clone -b master https://github.com/raspberrypi/pico-sdk.git  
+PS D:\app\519\pico> cd pico-sdk
+PS D:\app\519\pico\pico-sdk> git submodule update --init
+PS D:\app\519\pico\pico-sdk> cd ..
+PS D:\app\519\pico> git clone -b master https://github.com/raspberrypi/pico-examples.git
+```
 
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
