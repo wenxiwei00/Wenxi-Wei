@@ -67,9 +67,25 @@ Firstly, open the Developer Command Prompt for VS 2022 and type,
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%201.PNG" width="500px">
 
-From this way, Visual Studio will be open with all correct environment.
+From this way, Visual Studio Code will be open with all correct environment.
 
-Then, this is a setting part. 
-Choose Setting
+Then, install the **CMake Tools** extension. Click on **Extension in the left-hand toolbar >> search **CMake Tools >> click on entry in the list >> click on the install button**
+
+Next, click on the Cog Wheel at the bottom of the navigation bar on the left-hand side of the interface and select **setting**.
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%202.PNG" width="500px">
+
+In the setting pane, **click Extensions >> CMake Tools >> CMake: Configure Environment >> Add Item >> set the PICO_SDK_PATH to be `..\..\pico-sdk`**.
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%203.PNG" width="500px">
+
+Scroll down to **Cmake: Generator** and enter `NMake Makefiles`
+
+Next, go to the file menu. **Open File >> choose pico-example >> Select Folder**. When you are prompted to configure the project which will show on right bottom, select **GCC for arm-none-eabi** for your compiler.
+
+Go ahead and click on the **Build button** (with a cog wheel) in the blue bottom bar of the window. This will create the build directory and run CMake and build the examples project, including "Hello World".
+
+Then, the folder in your computer will exists a file called **hello_usb.uf2** inside the build folder.
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%204.PNG" width="500px">
+
