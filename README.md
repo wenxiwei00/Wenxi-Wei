@@ -86,7 +86,7 @@ Then, your computer will exist a file called **hello_usb.uf2** inside the build 
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%204.PNG" width="500px">
 
-The next step is connecting Adafruit QT Py RP2040 to computer and drag **hello_usb.uf2** into Adafruit QT Py RP2040. After inserting QT Py RP2040, hold down the **BOOT/BOOTSEL button** (highlighted in red), and while continuing to hold it (don't let go!), press and release the **reset button** (highlighted in blue). Continue to hold the BOOT/BOOTSEL button until the RPI-RP2 drive appears.
+The next step is connecting Adafruit QT Py RP2040 to computer and dragging **hello_usb.uf2** into Adafruit QT Py RP2040. After inserting QT Py RP2040, hold down the **BOOT/BOOTSEL button** (highlighted in red), and while continuing to hold it (don't let go!), press and release the **reset button** (highlighted in blue). Continue to hold the BOOT/BOOTSEL button until the RPI-RP2 drive appears.
 
 <img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/hw%205.PNG" width="500px">
 
