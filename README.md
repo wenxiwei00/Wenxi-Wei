@@ -96,6 +96,23 @@ The next step is connecting Adafruit QT Py RP2040 to computer and drag **hello_u
 Then drag the **hello_usb.uf2** into Adafruit QT Py RP2040 drive.
 
 # PuTTY
+Download **PuTTY** from https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/putty%202.PNG" width="500px">
+
+Open **device manager** in your computer to make sure what port QT Py RP2040 is connected to.
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/putty%201.PNG" width="500px">
+
+Open **PuTTY** and set the following parts (highlighted in yellow).
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/putty%203.PNG" width="500px">
+
+Then, the "Hello World" shows on PuTTY.
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/putty%204.PNG" width="500px">
+
+
 
 
 
