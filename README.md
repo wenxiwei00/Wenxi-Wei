@@ -34,15 +34,13 @@ Download from https://visualstudio.microsoft.com/zh-hans/downloads/.
 
 # Python 3.10
 Download from https://www.python.org/downloads/windows/.
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 4.1
 
-<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/4.1.PNG" width="500px">
 
 # Git
 Download from https://git-scm.com/download/win.
-5.15555555555555555555555555555555555
 
-<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/5.1.PNG" width="500px">
 
 # Getting the SDK and examples
 Open Visual Studio Code >> Terminal >> New Terminal.
@@ -50,8 +48,8 @@ Initial the address
 ```
 PS D:\app\519\pico\pico-examples> cd "D:\app\519\pico"
 ```
-6.11111111111
-<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/1.3.PNG" width="500px">
+
+<img src="https://github.com/wenxiwei00/Wenxi-Wei/blob/main/6.1.PNG" width="500px">
 
 Then, clone SDK and example from github
 ```
