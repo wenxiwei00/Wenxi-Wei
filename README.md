@@ -66,7 +66,7 @@ Firstly, open the **Developer Command Prompt for VS 2022** and type,
 
 From this way, Visual Studio Code will be open with all correct environment.
 
-Then, install the **CMake Tools** extension. Click on **Extension in the left-hand toolbar >> search **CMake Tools >> click on entry in the list >> click on the install button**
+Then, install the **CMake Tools** extension. Click on **Extension in the left-hand toolbar >> search CMake Tools >> click on entry in the list >> click on the install button**
 
 Next, click on the Cog Wheel at the bottom of the navigation bar on the left-hand side of the interface and select **setting**.
 
